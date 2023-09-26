@@ -34,7 +34,7 @@
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <version>3.10.1</version>
+          <version>1.7</version>
         </configuration>
       </plugin>
 
@@ -163,11 +163,11 @@
 
   <dependencyManagement>
     <dependencies>
-    <dependency>
+    <!-- <dependency>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-war-plugin</artifactId>
       <version>3.3.2</version>
-    </dependency>
+    </dependency> -->
 
       <dependency>
         <groupId>javax.servlet</groupId>
